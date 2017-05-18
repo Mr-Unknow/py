@@ -1,0 +1,13 @@
+#encoding: utf-8
+
+num1 = int(input('Você deve: R$'))
+num2 = int(input('Você pagou: R$ '))
+num3 = num1 - num2
+
+print ('Agora você esta devendo: R$',num3)
+
+time = int(input('Quanto dias você tem para pagar? '))
+salario = int(input('Quanto você ganha diariamente? '))
+res = num3 / salario
+
+print ('Você conseguira pagar sua divida em:' ,res, 'dias')
